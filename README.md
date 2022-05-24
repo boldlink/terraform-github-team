@@ -8,7 +8,7 @@
 
 Terraform module for creating Github teams.
 
-Examples available [`here`]github.com/boldlink/terraform-github-team//tree/main/examples)
+Examples available [`here`](github.com/boldlink/terraform-github-team//tree/main/examples)
 
 ## Usage
 *NOTE*: These examples use the latest version of this module
@@ -22,7 +22,7 @@ module "team_closed" {
 ```
 ## Documentation
 
-[Github Documentation](https://link)
+[Github Documentation](https://docs.github.com/en/organizations/organizing-members-into-teams/creating-a-team)
 
 [Terraform module documentation](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/team)
 

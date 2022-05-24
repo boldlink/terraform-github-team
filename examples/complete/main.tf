@@ -11,5 +11,5 @@ module "team_secret" {
   source      = "./../../"
   name        = "example-team-secret"
   description = "Example secret team"
-  maintainers = ["ndegwajohn"]
+  maintainers = ["SomeUser"]
 }

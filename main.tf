@@ -18,5 +18,4 @@ resource "github_team_membership" "member" {
   count    = var.members == [] ? 0 : length(var.members)
   team_id  = github_team.main.id
   username = element(var.members, count.index)
-  #role     = "member"
 }
