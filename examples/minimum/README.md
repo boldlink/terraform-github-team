@@ -1,4 +1,10 @@
+[![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/update.yaml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
+[![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/release.yaml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
 [![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
+[![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/pre-commit.yaml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
+[![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/pr-labeler.yaml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
+[![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/checkov.yaml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
+[![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/auto-badge.yaml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
 
 [<img src="https://avatars.githubusercontent.com/u/25388280?s=200&v=4" width="96"/>](https://boldlink.io)
 
