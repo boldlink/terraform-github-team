@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/License-Apache-blue.svg)](https://github.com/boldlink/terraform-github-team/blob/main/LICENSE)
+[![Latest Release](https://img.shields.io/github/release/boldlink/terraform-github-team.svg)](https://github.com/boldlink/terraform-github-team/releases/latest)
 [![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/update.yaml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
 [![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/release.yaml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
 [![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/pre-commit.yaml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
@@ -43,7 +45,7 @@ module "team_closed" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_github"></a> [github](#provider\_github) | 5.13.0 |
+| <a name="provider_github"></a> [github](#provider\_github) | 5.16.0 |
 
 ## Modules
 
