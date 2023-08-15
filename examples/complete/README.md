@@ -6,6 +6,7 @@
 [![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/pr-labeler.yaml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
 [![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/module-examples-tests.yaml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
 [![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/checkov.yaml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
+[![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/auto-merge.yaml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
 [![Build Status](https://github.com/boldlink/terraform-github-team/actions/workflows/auto-badge.yaml/badge.svg)](https://github.com/boldlink/terraform-github-team/actions)
 
 [<img src="https://avatars.githubusercontent.com/u/25388280?s=200&v=4" width="96"/>](https://boldlink.io)
