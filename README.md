@@ -24,7 +24,8 @@ Examples available [`here`](github.com/boldlink/terraform-github-team//tree/main
 
 ```console
 module "team_closed" {
-    source = "./../../"
+    source = "boldlink/team/github"
+    version = <insert_latest_version>
     name = "example-team-minimum"
     description = "Example closed team"
 }
@@ -47,7 +48,7 @@ module "team_closed" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_github"></a> [github](#provider\_github) | 5.33.0 |
+| <a name="provider_github"></a> [github](#provider\_github) | 5.12.0 |
 
 ## Modules
 
@@ -103,4 +104,4 @@ The makefile contain in this repo is optimized for linux paths and the main purp
 * Clean all tests:
 `$ make clean`
 
-#### BOLDLink-SIG 2022
+#### BOLDLink-SIG 2023
