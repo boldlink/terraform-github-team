@@ -17,18 +17,18 @@ module "team_secret" {
 
 ## Nested team
 module "parent_team" {
-  source      = "./../../"
-  name        = "${var.name}-parent"
-  description = "Example parent team"
+  source                    = "./../../"
+  name                      = "${var.name}-parent"
+  description               = "Example parent team"
   create_default_maintainer = true
-  privacy     = "closed"
+  privacy                   = "closed"
 }
 
 module "child_team" {
-  source      = "./../../"
-  name        = "${var.name}-child"
-  description = "Example child team"
+  source                    = "./../../"
+  name                      = "${var.name}-child"
+  description               = "Example child team"
   create_default_maintainer = true
-  parent_team_id = module.parent_team.team_id
-  privacy     = "closed"
+  parent_team_id            = module.parent_team.team_id
+  privacy                   = "closed"
 }

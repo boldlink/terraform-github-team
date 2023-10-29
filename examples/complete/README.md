@@ -30,6 +30,8 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
+| <a name="module_child_team"></a> [child\_team](#module\_child\_team) | ./../../ | n/a |
+| <a name="module_parent_team"></a> [parent\_team](#module\_parent\_team) | ./../../ | n/a |
 | <a name="module_team_closed"></a> [team\_closed](#module\_team\_closed) | ./../../ | n/a |
 | <a name="module_team_secret"></a> [team\_secret](#module\_team\_secret) | ./../../ | n/a |
 
@@ -39,7 +41,9 @@ No resources.
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_name"></a> [name](#input\_name) | The name of the team. | `string` | `"example-team"` | no |
 
 ## Outputs
 
