@@ -48,7 +48,7 @@ module "team_closed" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_github"></a> [github](#provider\_github) | 5.12.0 |
+| <a name="provider_github"></a> [github](#provider\_github) | 5.41.0 |
 
 ## Modules
 
