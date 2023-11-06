@@ -15,7 +15,13 @@
 
 ## Description
 
-Terraform module for creating Github teams.
+Terraform module for creating Github teams and github user membership.
+
+To use terrafrom to create a team, you must be an organization owner or have admin access to the organization.
+
+Make sure you also define the following environment variables:
+- Provide `GITHUB_OWNER` environment variable by running the command `export GITHUB_OWNER=boldlink` on the terminal
+- Provide `GITHUB_TOKEN` environment variable by running the command `export GITHUB_TOKEN=<value_of_your_token_here>` on the terminal
 
 Examples available [`here`](github.com/boldlink/terraform-github-team//tree/main/examples)
 
