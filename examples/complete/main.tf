@@ -3,15 +3,15 @@ module "team_closed" {
   name        = "${var.name}-closed"
   description = "Example closed team"
   privacy     = "closed"
-  maintainers = ["SomeUser"]
-  members     = ["AnotherUser"]
+  maintainers = ["hugoalmeida264"]
+  members     = ["hugoalmeida264"]
 }
 
 module "team_secret" {
   source      = "./../../"
   name        = "${var.name}-secret"
   description = "Example secret team"
-  maintainers = ["SomeUser"]
+  maintainers = ["hugoalmeida264"]
 }
 
 
