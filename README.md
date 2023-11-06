@@ -15,7 +15,13 @@
 
 ## Description
 
-Terraform module for creating Github teams.
+Terraform module for creating Github teams and github user membership.
+
+To use terrafrom to create a team, you must be an organization owner or have admin access to the organization.
+
+Make sure you also define the following environment variables:
+- Provide `GITHUB_OWNER` environment variable by running the command `export GITHUB_OWNER=boldlink` on the terminal
+- Provide `GITHUB_TOKEN` environment variable by running the command `export GITHUB_TOKEN=<value_of_your_token_here>` on the terminal
 
 Examples available [`here`](github.com/boldlink/terraform-github-team//tree/main/examples)
 
@@ -24,7 +30,8 @@ Examples available [`here`](github.com/boldlink/terraform-github-team//tree/main
 
 ```console
 module "team_closed" {
-    source = "./../../"
+    source = "boldlink/team/github"
+    version = <insert_latest_version>
     name = "example-team-minimum"
     description = "Example closed team"
 }
@@ -47,7 +54,7 @@ module "team_closed" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_github"></a> [github](#provider\_github) | 5.33.0 |
+| <a name="provider_github"></a> [github](#provider\_github) | 5.41.0 |
 
 ## Modules
 
@@ -103,4 +110,4 @@ The makefile contain in this repo is optimized for linux paths and the main purp
 * Clean all tests:
 `$ make clean`
 
-#### BOLDLink-SIG 2022
+#### BOLDLink-SIG 2023
